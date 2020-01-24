@@ -19,7 +19,7 @@ public class FirstClass {
 	  chromeOptions.addArguments("--no-sandbox");
       driver=new ChromeDriver(chromeOptions); //open browser
       driver.manage().window().maximize(); //maximize browser window
-      driver.get("http://34.93.135.215:9001/website/");
+      driver.get("http://52.66.157.239:32768/website/");
       driver.findElement(By.xpath("//a[@id='About Us']")).click();
       verifySuccessMsg();
       driver.close();
